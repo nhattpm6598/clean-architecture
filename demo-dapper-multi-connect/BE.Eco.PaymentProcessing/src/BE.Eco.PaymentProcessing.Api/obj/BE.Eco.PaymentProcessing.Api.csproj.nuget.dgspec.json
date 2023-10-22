@@ -1,0 +1,300 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\company\\ryo\\demo\\BE.Eco.PaymentProcessing\\src\\BE.Eco.PaymentProcessing.Api\\BE.Eco.PaymentProcessing.Api.csproj": {}
+  },
+  "projects": {
+    "D:\\company\\ryo\\demo\\BE.Eco.PaymentProcessing\\src\\BE.Eco.PaymentProcessing.Api\\BE.Eco.PaymentProcessing.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\company\\ryo\\demo\\BE.Eco.PaymentProcessing\\src\\BE.Eco.PaymentProcessing.Api\\BE.Eco.PaymentProcessing.Api.csproj",
+        "projectName": "BE.Eco.PaymentProcessing.Api",
+        "projectPath": "D:\\company\\ryo\\demo\\BE.Eco.PaymentProcessing\\src\\BE.Eco.PaymentProcessing.Api\\BE.Eco.PaymentProcessing.Api.csproj",
+        "packagesPath": "C:\\Users\\nhatt\\.nuget\\packages\\",
+        "outputPath": "D:\\company\\ryo\\demo\\BE.Eco.PaymentProcessing\\src\\BE.Eco.PaymentProcessing.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\nhatt\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+          "http://nuget.ryo.com.vn:8081/repository/nuget-hosted/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\company\\ryo\\demo\\BE.Eco.PaymentProcessing\\src\\BE.Eco.PaymentProcessing.Application\\BE.Eco.PaymentProcessing.Application.csproj": {
+                "projectPath": "D:\\company\\ryo\\demo\\BE.Eco.PaymentProcessing\\src\\BE.Eco.PaymentProcessing.Application\\BE.Eco.PaymentProcessing.Application.csproj"
+              },
+              "D:\\company\\ryo\\demo\\BE.Eco.PaymentProcessing\\src\\BE.Eco.PaymentProcessing.Infrastructure\\BE.Eco.PaymentProcessing.Infrastructure.csproj": {
+                "projectPath": "D:\\company\\ryo\\demo\\BE.Eco.PaymentProcessing\\src\\BE.Eco.PaymentProcessing.Infrastructure\\BE.Eco.PaymentProcessing.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\company\\ryo\\demo\\BE.Eco.PaymentProcessing\\src\\BE.Eco.PaymentProcessing.Application\\BE.Eco.PaymentProcessing.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\company\\ryo\\demo\\BE.Eco.PaymentProcessing\\src\\BE.Eco.PaymentProcessing.Application\\BE.Eco.PaymentProcessing.Application.csproj",
+        "projectName": "BE.Eco.PaymentProcessing.Application",
+        "projectPath": "D:\\company\\ryo\\demo\\BE.Eco.PaymentProcessing\\src\\BE.Eco.PaymentProcessing.Application\\BE.Eco.PaymentProcessing.Application.csproj",
+        "packagesPath": "C:\\Users\\nhatt\\.nuget\\packages\\",
+        "outputPath": "D:\\company\\ryo\\demo\\BE.Eco.PaymentProcessing\\src\\BE.Eco.PaymentProcessing.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\nhatt\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nuget.ryo.com.vn:8081/repository/nuget-hosted/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\company\\ryo\\demo\\BE.Eco.PaymentProcessing\\src\\BE.Eco.PaymentProcessing.Domain\\BE.Eco.PaymentProcessing.Domain.csproj": {
+                "projectPath": "D:\\company\\ryo\\demo\\BE.Eco.PaymentProcessing\\src\\BE.Eco.PaymentProcessing.Domain\\BE.Eco.PaymentProcessing.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\company\\ryo\\demo\\BE.Eco.PaymentProcessing\\src\\BE.Eco.PaymentProcessing.Domain\\BE.Eco.PaymentProcessing.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\company\\ryo\\demo\\BE.Eco.PaymentProcessing\\src\\BE.Eco.PaymentProcessing.Domain\\BE.Eco.PaymentProcessing.Domain.csproj",
+        "projectName": "BE.Eco.PaymentProcessing.Domain",
+        "projectPath": "D:\\company\\ryo\\demo\\BE.Eco.PaymentProcessing\\src\\BE.Eco.PaymentProcessing.Domain\\BE.Eco.PaymentProcessing.Domain.csproj",
+        "packagesPath": "C:\\Users\\nhatt\\.nuget\\packages\\",
+        "outputPath": "D:\\company\\ryo\\demo\\BE.Eco.PaymentProcessing\\src\\BE.Eco.PaymentProcessing.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\nhatt\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nuget.ryo.com.vn:8081/repository/nuget-hosted/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Dapper.Contrib": {
+              "target": "Package",
+              "version": "[2.0.78, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\company\\ryo\\demo\\BE.Eco.PaymentProcessing\\src\\BE.Eco.PaymentProcessing.Infrastructure\\BE.Eco.PaymentProcessing.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\company\\ryo\\demo\\BE.Eco.PaymentProcessing\\src\\BE.Eco.PaymentProcessing.Infrastructure\\BE.Eco.PaymentProcessing.Infrastructure.csproj",
+        "projectName": "BE.Eco.PaymentProcessing.Infrastructure",
+        "projectPath": "D:\\company\\ryo\\demo\\BE.Eco.PaymentProcessing\\src\\BE.Eco.PaymentProcessing.Infrastructure\\BE.Eco.PaymentProcessing.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\nhatt\\.nuget\\packages\\",
+        "outputPath": "D:\\company\\ryo\\demo\\BE.Eco.PaymentProcessing\\src\\BE.Eco.PaymentProcessing.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\nhatt\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nuget.ryo.com.vn:8081/repository/nuget-hosted/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\company\\ryo\\demo\\BE.Eco.PaymentProcessing\\src\\BE.Eco.PaymentProcessing.Application\\BE.Eco.PaymentProcessing.Application.csproj": {
+                "projectPath": "D:\\company\\ryo\\demo\\BE.Eco.PaymentProcessing\\src\\BE.Eco.PaymentProcessing.Application\\BE.Eco.PaymentProcessing.Application.csproj"
+              },
+              "D:\\company\\ryo\\demo\\BE.Eco.PaymentProcessing\\src\\BE.Eco.PaymentProcessing.Domain\\BE.Eco.PaymentProcessing.Domain.csproj": {
+                "projectPath": "D:\\company\\ryo\\demo\\BE.Eco.PaymentProcessing\\src\\BE.Eco.PaymentProcessing.Domain\\BE.Eco.PaymentProcessing.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Dapper.Contrib": {
+              "target": "Package",
+              "version": "[2.0.78, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

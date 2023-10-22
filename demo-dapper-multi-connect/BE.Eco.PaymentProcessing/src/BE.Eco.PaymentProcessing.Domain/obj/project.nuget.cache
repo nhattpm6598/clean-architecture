@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "dgSpecHash": "vwjVYF8rx9SM0UAyxxsa+YGZT8bJVjTgjFRnDjeoVr3y6cjO26ri3iHUFJhFOZbtLDxRedqRGjRw0BKO3U0mJA==",
+  "success": true,
+  "projectFilePath": "D:\\company\\ryo\\demo\\BE.Eco.PaymentProcessing\\src\\BE.Eco.PaymentProcessing.Domain\\BE.Eco.PaymentProcessing.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nhatt\\.nuget\\packages\\dapper\\2.0.78\\dapper.2.0.78.nupkg.sha512",
+    "C:\\Users\\nhatt\\.nuget\\packages\\dapper.contrib\\2.0.78\\dapper.contrib.2.0.78.nupkg.sha512",
+    "C:\\Users\\nhatt\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\nhatt\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\nhatt\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+    "C:\\Users\\nhatt\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://nuget.ryo.com.vn:8081/repository/nuget-hosted/index.json'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+    }
+  ]
+}
